@@ -36,10 +36,10 @@ def playground():
 
 def code():
     greeting = "Code, Code, Code!"
-    name = "Gist"
+    name = "Healthydinner.html code"
     doa = "October 2"
     job = "Code Sample"
-    gist = "https://gist.github.com/jm1021/cfb277c7357e02fcb4123a6c7429a5c1.js"
+    gist = "https://gist.github.com/lolabulkin/223caf2955f81b12fd0c30cb504dd1bc.js"
     info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "gist": gist}
     return info
 
