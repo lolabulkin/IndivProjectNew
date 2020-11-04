@@ -1,6 +1,6 @@
 def runtime():
     greeting = "Welcome to Lola's Project!"
-    name = "Repl"
+    name = "Repl project 1"
     doa = "October 30"
     job = "Runtime Link"
     embed = "https://first-project-guess-the-number.braydenbasinger.repl.run/"
@@ -8,10 +8,10 @@ def runtime():
     return info
 
 def planning():
-    greeting = "Hey, Hey!"
-    name = "Padlet"
+    greeting = "Coder Joes Project!"
+    name = "IntelliJ"
     doa = "October 23"
-    job = "Project Planning"
+    job = "Code Code Code..."
     embed = "https://padlet.com/jmortensen7/csptime1_2"
     info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
