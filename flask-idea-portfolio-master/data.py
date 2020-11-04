@@ -1,9 +1,9 @@
 def runtime():
-    greeting = "Hey, Hey, Hey!"
+    greeting = "Welcome to Lola's Project!"
     name = "Repl"
     doa = "October 30"
     job = "Runtime Link"
-    embed = "https://python-hello-series.jmort1021.repl.run"
+    embed = "https://first-project-guess-the-number.braydenbasinger.repl.run/"
     info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
