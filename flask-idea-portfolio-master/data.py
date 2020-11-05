@@ -1,9 +1,9 @@
 def runtime():
     greeting = "Welcome to Lola's Project!"
-    name = "Repl project 1"
+    name = "Requirements overview"
     doa = "October 30"
-    job = "Runtime Link"
-    embed = "https://first-project-guess-the-number.braydenbasinger.repl.run/"
+    job = "Googledocs Link"
+    embed = "https://docs.google.com/document/d/10bN-yHRZeEk96tJRiNuCwmpyM4GlaNuQfVdG1BLMTWM/edit?usp=sharing"
     info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
@@ -12,16 +12,16 @@ def planning():
     name = "IntelliJ"
     doa = "October 23"
     job = "Code Code Code..."
-    embed = "https://padlet.com/jmortensen7/csptime1_2"
+    embed = "https://flask-web-series-coder-joes.braydenbasinger.repl.co/"
     info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
 def journal():
-    greeting = "Hey!"
+    greeting = "Here's our Journal!"
     name = "Google Doc"
     doa = "October 16"
     job = "Journal Record"
-    embed = "https://docs.google.com/document/d/1Om-4ns6kmzePFvCB2WAyXArEHLUvKVWcQ7jVwswtX-0/edit"
+    embed = "https://docs.google.com/document/d/1YHzoimlYnXwGREC1HLFnh6Uq4z4oAGNSUDmFtDk24tU/edit?usp=sharing"
     info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
     return info
 
@@ -43,8 +43,17 @@ def code():
     info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "gist": gist}
     return info
 
+def code2():
+    greeting = "Code, Code, Code!"
+    name = "Main.py code"
+    doa = "October 2"
+    job = "Code Sample"
+    gist = "https://gist.github.com/lolabulkin/2bcbe160a4a6b6588603c06d883990dc.js"
+    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "gist": gist}
+    return info
+
 def alldata():
-    return [runtime(), planning(), journal(), playground(), code()]
+    return [runtime(), planning(), journal(), playground(), code(), code2()]
 
 #Data "setup" for Projects
 #next step would be to extract project data from a database
