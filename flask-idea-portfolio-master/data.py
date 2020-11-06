@@ -26,12 +26,12 @@ def journal():
     return info
 
 def playground():
-    greeting = "Play, Play, Play!"
-    name = "Replit"
-    doa = "October 9"
-    job = "Playground"
-    embed = "https://repl.it/@jmort1021/Python-Hello-Series?lite=true"
-    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "embed": embed}
+    greeting = "Code, Code, Code!"
+    name = "Main.py code"
+    doa = "October 2"
+    job = "Code Sample"
+    gist = "https://gist.github.com/lolabulkin/2bcbe160a4a6b6588603c06d883990dc.js"
+    info = {"greeting": greeting, "name": name, "doa": doa, "job": job, "gist": gist}
     return info
 
 def code():
@@ -53,7 +53,7 @@ def code2():
     return info
 
 def alldata():
-    return [runtime(), planning(), journal(), playground(), code(), code2()]
+    return [runtime(), planning(), journal(), playground(), code()]
 
 #Data "setup" for Projects
 #next step would be to extract project data from a database
